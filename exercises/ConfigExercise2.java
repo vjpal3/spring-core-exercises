@@ -13,4 +13,8 @@ public class ConfigExercise2 {
 //		return new EchoServiceExercise2();
 //	}
 
+	@Bean
+	public Integer echoRepeat() {
+		return 4;
+	}
 }
